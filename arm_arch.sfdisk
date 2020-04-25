@@ -1,6 +1,6 @@
 label: dos
-label-id: 0x1b8fba89
-device: ./beagle_bone.disk
+label-id: 0xf4111b2d
+device: ./arm_arch.disk
 unit: sectors
 
-./beagle_bone.disk1 : start=        2048, size=     4192256, type=83
+./arm_arch.disk1 : start=        2048, size=     7550976, type=83

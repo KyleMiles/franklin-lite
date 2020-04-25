@@ -14,4 +14,4 @@ RUN git clone https://github.com/mtu-most/franklin.git
 WORKDIR /home/builder/franklin
 RUN echo "#!/bin/bash\nmake build && cp /tmp/*.deb /build/" > franklin_build.sh && chmod +x franklin_build.sh
 ENTRYPOINT ["./franklin_build.sh"]
-ENTRYPOINT ["/bin/bash"]
+# ENTRYPOINT ["/bin/bash"]  # Debug

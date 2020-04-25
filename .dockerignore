@@ -5,5 +5,6 @@ create_install_disk.sh
 Dockerfile
 emmc_install.sh
 franklin-install.sh
+.git
 Makefile
 readme.md

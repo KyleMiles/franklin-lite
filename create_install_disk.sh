@@ -49,5 +49,5 @@ clean() {
 disk
 arch
 u_boot
-oem_it
+# oem_it  # TODO : This
 clean

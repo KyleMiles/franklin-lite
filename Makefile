@@ -8,6 +8,10 @@ franklin:
 	rm -rf build/*
 	docker run -it --rm -v "${PWD}/build":/build franklinstein
 
+	# git clone https://github.com/helixarch/debtap.git
+	# ./debtap/debtap -u
+	# ./debtap/debtap -U franklin/*.deb
+
 arch_disk:
 	./create_install_disk.sh
 
