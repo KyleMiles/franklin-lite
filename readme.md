@@ -1,3 +1,5 @@
+#### Note: This project doesn't yet work; I tried to get Franklin to work on arch, which didn't work because the project depends on rather odd Debian-specific packages that could not be converted by existing automated tools.  This could be done manually, but I don't have the desire to maintain that.  This needs to be replaced with a light-weight Debian-for-ARM distro instead, which I might need to compile myself as well.  This'll require an almost entire re-work of the code in this repo.
+
 # Franklin-Lite
 
 This project provides the scripts to make a arch-linux installer for the Beaglebone Green, as well as a Dockerfile to build the most recent Franklin firmware.
